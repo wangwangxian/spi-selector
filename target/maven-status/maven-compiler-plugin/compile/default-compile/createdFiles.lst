@@ -1,0 +1,7 @@
+com/spiselector/SpiScan.class
+com/spiselector/SpiSelectorProxyFactory.class
+com/spiselector/SpiSelectorRegister.class
+com/spiselector/SpiApplicationContext.class
+com/spiselector/SpiSelectorScanner.class
+com/spiselector/SpiSelectorProxy.class
+com/spiselector/SpiInterface.class
