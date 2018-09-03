@@ -1,4 +1,4 @@
-package com.spiselector;
+package com.spiselector.context;
 
 import org.springframework.util.StringUtils;
 

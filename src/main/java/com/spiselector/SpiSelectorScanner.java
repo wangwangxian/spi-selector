@@ -1,5 +1,6 @@
 package com.spiselector;
 
+import com.spiselector.annotation.SpiInterface;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.AnnotatedBeanDefinition;
@@ -12,7 +13,7 @@ import org.springframework.core.type.filter.AnnotationTypeFilter;
 import java.util.Arrays;
 import java.util.Set;
 
-class SpiSelectorScanner extends ClassPathBeanDefinitionScanner {
+public class SpiSelectorScanner extends ClassPathBeanDefinitionScanner {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 

@@ -1,5 +1,6 @@
 package com.spiselector;
 
+import com.spiselector.annotation.SpiScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
@@ -11,7 +12,7 @@ import org.springframework.core.type.AnnotationMetadata;
 
 import java.util.Arrays;
 
-class SpiSelectorRegister implements ImportBeanDefinitionRegistrar, ResourceLoaderAware {
+public class SpiSelectorRegister implements ImportBeanDefinitionRegistrar, ResourceLoaderAware {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 

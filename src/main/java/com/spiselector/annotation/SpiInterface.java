@@ -1,4 +1,4 @@
-package com.spiselector;
+package com.spiselector.annotation;
 
 import java.lang.annotation.*;
 
@@ -7,5 +7,5 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface SpiInterface {
 
-    String[] code() default {"defautSpi"};
+    String[] code() default {"spiNull"};
 }
